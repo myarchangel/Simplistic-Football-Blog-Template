@@ -1,0 +1,17 @@
+body{
+    background-color: green;    
+}
+/* combinator selector */
+div ~ p{
+    color: blue;
+}
+div + p{
+    color: red;
+}
+div > p{
+    text-decoration: underline;
+}
+div p{
+    font-weight: bold;
+}
+/* end of combinator selector */

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All about Football News</title>
+    <link rel="stylesheet" href="./lib/bootstrap-5.1.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="./lib/aos/aos.css">
+</head>
+<body>
+    <!-- NAVIGATION ITEMS START -->
+    <header class="p-3 mb-0 border-bottom">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start" data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1800">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+              <!-- <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg> -->
+              <img src="./media/logo/football_logo.png" alt="" width="50px" class="rounded-2">
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li class="px-4"><a href="#" class="nav-link px-2 link-secondary"> <i class="bi bi-house-fill"></i> Home</a></li>
+              <li class="px-4"><a href="./pages/article1.html" class="nav-link px-2 link-dark"> <i class="bi bi-book-fill"></i> Articles</a></li>
+              <li class="px-4"><a href="./pages/authors.html" class="nav-link px-2 link-dark"> <i class="bi bi-person-circle"></i> Authors</a></li>
+              <li class="px-4"><a href="#" class="nav-link px-2 link-dark"> <i class="bi bi-question-circle-fill"></i> FAQs</a></li>
+              <li class="px-4"><a href="#" class="nav-link px-2 link-dark"> <i class="bi bi-chat-dots-fill"></i> About</a></li>
+            </ul>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+              <div class="input-group">
+              <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+              <span id="searchBtn" class="input-group-text"><a href="./pages/search.html"><i class="bi bi-search"></i></a></span>
+              </div>
+            </form>
+    
+          </div>
+        </div>
+        <!-- <h1 class="bi bi-bell-fill"></h1> -->
+    </header>
+    <!-- SLIDER START -->
+    <main>
+      <div id="myCarousel" class="carousel slide mb-2" data-bs-ride="carousel" data-aos="fade-down" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="1800">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./media/images/football-slider1.jpg" alt="">
+    
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Welcome to football news</h1>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./media/images/football-slider2.jpg" alt="">
+    
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Latest news about football, and more</h1>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./media/images/football-slider3.jpg" alt="">
+    
+            <div class="container">
+              <div class="carousel-caption text-end">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+    
+      <!-- FEATURED ARTICLES SECTION START -->
+      <div class="container">
+        <div class="row" data-masonry='{"percentPosition": true }'>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="card" data-aos="flip-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+              <img src="./media/images/article1b.jpg" alt="" class="rounded-2">
+      
+              <div class="card-body">
+                <h5 class="card-title">Who will win the next Ballon d’Or?</h5>
+                <p class="card-text">The Ballon d’Or is given to the best football player in the world every year. Karim Benzema won the prestigious award last year after his 44 goals helped Real Madrid lift the La Liga and Champions League trophies...</p>
+                <a href="./pages/article1.html" class="btn btn-primary">Read More...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="card" data-aos="flip-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="600">
+              <img src="./media/images/article2.jpg" alt="" class="rounded-2">
+      
+              <div class="card-body">
+                <h5 class="card-title">Five Famous Hollywood Football Fans</h5>
+                <p class="card-text">Football without fans is nothing. Where is the excitement in watching a goal scored in an empty stadium? Sure, it kept us going over the last 18 months or so...
+                  </p>
+                  <a href="./pages/article2.html" class="btn btn-primary">Read More...</a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="card" data-aos="flip-left" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="600">
+              <img src="./media/images/article3.jpg" alt="" class="rounded-2">
+      
+              <div class="card-body">
+                <h5 class="card-title">2023 FA Cup 3rd Round Preview</h5>
+                <p class="card-text">The FA Cup third round will be played between January 6 and January 9 and can be streamed online here. This is the stage where the Premier League teams...</p>
+                <a href="./pages/article3.html" class="btn btn-primary">Read More...</a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="card" data-aos="flip-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+              <img src="./media/images/article4.jpg" alt="" class="rounded-2">
+
+              <div class="card-body">
+                <h5 class="card-title">Chelsea vs Man City highlights and reaction as Riyad Mahrez scores from Grealish assist</h5>
+                <p class="card-text">Manchester City beat Chelsea at Stamford Bridge in an important Premier League fixture ahead of the two sides meeting again in the FA Cup at the weekend...</p>
+                <a href="./pages/article4.html" class="btn btn-primary">Read More...</a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="card" data-aos="flip-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="600">
+              <img src="./media/images/article5.jpg" alt="" class="rounded-2">
+
+              <div class="card-body">
+                <h5 class="card-title">Man City 1-1 Everton highlights and reaction after Haaland and Gray goals</h5>
+                <p class="card-text">Manchester City were left frustrated on New Year's Eve as Everton earned a point at the Etihad Stadium. Julian Alvarez was a surprise inclusion...</p>
+                <a href="./pages/article5.html" class="btn btn-primary">Read More...</a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="card" data-aos="flip-left" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="600">
+              <img src="./media/images/article6.jpg" alt="" class="rounded-2">
+
+              <div class="card-body">
+                <h5 class="card-title">Every word Pep Guardiola said ahead of Man City vs Chelsea fixture</h5>
+                <p class="card-text">Manchester City take on Chelsea in the Premier League on Thursday and Pep Guardiola will give his thoughts today...</p>
+                <a href="./pages/article6.html" class="btn btn-primary">Read More...</a>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+      <div class="d-flex flex-row justify-content-center">
+        <nav>
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </main>
+    <footer class="container">
+      <p>&copy; 2023 Michael Bamidele &middot; <a href="#">T-Max Project</a> &middot; <a href="#">Terms</a></p>
+      
+    </footer>
+   
+    
+    <script src="./lib/bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./lib/aos/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="/scripts/main.js"></script>
+</body>
+</html>
